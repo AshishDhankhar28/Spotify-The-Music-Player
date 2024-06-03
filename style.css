@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+/* -------------------------------------LEFT SIDE--------------------------------------------------- */
+.main_box{
+    display: flex;
+}
+                                         
+/* left upper */
+.left_side{
+    margin-right: 2px;
+    width: 30vw;
+}
+
+.rightside{
+    width: 70vw;
+}
+
+.left_upper{
+    padding: 15px 12px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.left_upper img{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 6px 6px;
+    font-size: 15px;
+
+}
+
+/* left down */
+.Lfirst img{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+
+}
+
+.Lfirst{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.left_down{
+    padding: 15px 0px 12px 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.small_icon img{
+    height: 21px;
+    width: 16px;
+}
+
+.Lsecond p{
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 4px 14px;
+    font-size: 15px;
+    background-color: #1f1f1f;
+}
+
+.Lsecond{
+    margin-top: 10px;
+}
+
+.Lthird{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.Lthird img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+
+}
+
+.Lforth{
+    min-height: 403px;
+}
+
+@media (max-width:986px){
+    .left_side{
+        display: none;
+    }
+}
+
+/* ----------------------------------- RIGHT SIDE -----------------------------------------------------*/
+
+.rightupper{
+    border-radius: 10px;
+    padding-bottom: 1px;
+}
+
+.Rfirst{
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 10px 12px;
+    margin: 5px;
+}
+
+.Rfirst img{
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 3px;
+    margin-top: 5px;
+}
+
+
+
+.Rfirstright *{
+    margin: 4px;
+    border-radius: 30px;
+    padding: 5px;    
+}
+
+
+.Rsecond{
+    display: flex;
+    margin: 15px;
+    min-height: 200px;
+}
+
+.Rsecond div{
+    margin: 50px;
+}
+
+.Rsecond img{
+    width: 260px;
+    height: 265px;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+
+
+/* right down */
+
+.right_down{
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px 18px;
+    max-height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.right_down::-webkit-scrollbar{
+    display: none;
+}
+
+.rd1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.rd1 img{
+    width: 25px;
+    height: 33px;
+    margin: 10px;
+}
+
+.play{
+    border-radius: 50%;
+    padding: 7px 13px;
+}
+
+.songlist{
+    margin-top: 20px;
+    display: grid;
+    row-gap: 20px;
+    max-height: 253px;
+}
+
+.songname{
+    display: flex;
+    justify-content: space-between;
+}
+
+.songname div p{
+    text-align: start;
+}
+
+.item1{
+    width: 10%;
+}
+.item2{
+    width: 60%;
+}
+.item3{
+    width: 30%;
+}
+
+.hovers{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+@media (max-width:417px){
+    .rightupper img{
+        display: none;
+    }
+}
+
+
+
+/* ----------------------------------- PLAY BAR ----------------------------------------------------*/
+
+
+.playbar{
+    display: flex;
+    justify-content: space-between;
+    max-height: 49px ;
+    align-items: center;
+}
+
+.p1{
+    margin-left: 10px;
+    width: 150px;
+}
+
+.position{
+    margin-right: 112px;
+}
+
+.mainbuttons img{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    filter: invert(1);
+    margin-right: 15px;
+    margin-bottom: 10px;
+
+}
+.mainbuttons{
+    display: flex;
+    justify-content: center;
+}
+
+.mainplaybar{
+    display: flex;
+}
+
+.player{
+    width: 600px;
+    color: white;
+    margin-left: 5px;    
+    margin-right: 5px;    
+}
+
+.volume img{
+    width: 21px;
+    height: 19px;
+    margin-right: 2px;
+}
+
+.volume{
+    margin-right: 10px;
+}
+
+
+@media (max-width:1113px){
+    .playbar>p{
+        display: none;
+    }
+    .mainplaybar{
+        margin-left: 20px;
+    }
+}
+@media (max-width:994px){
+    .player{
+        width: 400px;
+    }
+    #volume{
+        display: none;
+    }
+    .volume>img{
+        display: none;
+    }
+    .playbar{
+        width: 100vw;
+        justify-content: center;   
+    }
+    .rightside{
+        width: 100%;
+    }   
+    .position{
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:604px){
+    .player{
+        width:300px
+    }
+}
+@media (max-width:489px){
+    .player{
+        width:200px
+    }
+}
+@media (max-width:422px){
+    .player{
+        width:140px
+    }
+}

@@ -1,0 +1,44 @@
+.border{
+    border: 1px solid black;
+}
+
+.whitecolor{
+    color: white;   
+}
+
+.imagecolor{
+    filter: invert(1);
+}
+
+.flex{
+    display: flex;
+}
+
+.align{
+    align-items: center;
+}
+
+.blackbackground{
+    background-color: #000000;
+}
+
+.greybackground{
+    background-color: #121212;
+}
+
+.justify{
+    justify-content: space-around;
+}
+
+.simplebackground{
+    background-color: #1f1f1f;
+}
+
+.redbackground{
+    background-color: #862619;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
