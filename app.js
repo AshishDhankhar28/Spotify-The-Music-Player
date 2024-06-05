@@ -1,5 +1,5 @@
 let progress=document.querySelector("#progress");
-let songs= new Audio ('Songs/1.mp3');
+let songs= new Audio ('./Songs/1.mp3');
 let master_button=document.querySelector("#masterplay");
 const songslist=["Songs/1.mp3","Songs/2.mp3","Songs/3.mp3","Songs/4.mp3","Songs/5.mp3","Songs/6.mp3","Songs/7.mp3","Songs/8.mp3","Songs/9.mp3", "Songs/10.mp3"];
 let index=0;
