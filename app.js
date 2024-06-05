@@ -60,7 +60,7 @@ array.forEach((element,i) => {
         makeallnormal();
         index=i;
         element.classList.add("hovers");
-        songs.src=`Songs/${index+1}.mp3`;
+        songs.src=`${index+1}.mp3`;
         songs.currentTime=0;
         songs.play();
         master_button.src="Image/pause.svg";
@@ -90,8 +90,7 @@ document.querySelector(".forwardButton").addEventListener('click',()=>{
         array[index].classList.add("hovers");
         array[index-1].classList.remove("hovers");
     }
-    console.log(index);
-    songs.src=`Songs/${index+1}.mp3`;
+    songs.src=`${index+1}.mp3`;
     songs.currentTime=0;
     songs.play();
     master_button.src="Image/pause.svg";
@@ -110,7 +109,7 @@ document.querySelector(".backButton").addEventListener('click',()=>{
         array[index+1].classList.remove("hovers");
     }
     console.log(index);
-    songs.src=`Songs/${index+1}.mp3`;
+    songs.src=`${index+1}.mp3`;
     songs.currentTime=0;
     songs.play();
     master_button.src="Image/pause.svg";
